@@ -9,8 +9,7 @@ public class KpopFans extends Fans {
 
   public void watchingPerformances(Musician musician, String expression) {
     super.showName();
-    System.out.print(expression);
-    super.watchingPerformances(musician);
+    System.out.print(expression + " melihat idolanya ");
     musician.perform();
   }
 }

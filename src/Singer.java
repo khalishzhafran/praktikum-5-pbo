@@ -1,7 +1,6 @@
 public class Singer extends Musician {
   @Override
   public void perform() {
-    super.perform();
-    System.out.print(", bernyanyi dengan merdu");
+    System.out.println("Beraksi di atas panggung, bernyayi dengan merdu");
   }
 }
